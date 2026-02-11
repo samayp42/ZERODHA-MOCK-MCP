@@ -1,0 +1,6 @@
+@echo off
+echo Installing Vercel CLI...
+call npm i -g vercel
+
+echo Deploying to Vercel...
+vercel --prod
